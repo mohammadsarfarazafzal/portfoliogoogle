@@ -1,16 +1,18 @@
-const linkHead = document.querySelector(".linkHead");
-const linkBodyHead = document.querySelector(".linkBodyHead")
+const linkHead = document.getElementsByClassName("linkHead");
+const linkBodyHead = document.getElementsByClassName("linkBodyHead")
 
-linkHead.addEventListener("mouseenter", ()=>{
-    linkBodyHead.style.textDecoration = "underline";
-});
-linkHead.addEventListener("mouseleave", ()=>{
-    linkBodyHead.style.textDecoration = "none";
-});
-
-linkBodyHead.addEventListener("mouseenter", ()=>{
-    linkBodyHead.style.textDecoration = "underline";
-});
-linkBodyHead.addEventListener("mouseleave", ()=>{
-    linkBodyHead.style.textDecoration = "none";
-});
+for (let i = 0; i < linkHead.length; i++) {
+    linkHead[i].addEventListener("mouseenter", ()=>{
+        linkBodyHead[i].style.textDecoration = "underline";
+    });
+    linkHead[i].addEventListener("mouseleave", ()=>{
+        linkBodyHead[i].style.textDecoration = "none";
+    });
+    
+    linkBodyHead[i].addEventListener("mouseenter", ()=>{
+        linkBodyHead[i].style.textDecoration = "underline";
+    });
+    linkBodyHead[i].addEventListener("mouseleave", ()=>{
+        linkBodyHead[i].style.textDecoration = "none";
+    });
+}
