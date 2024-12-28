@@ -37,12 +37,12 @@ body {
 }
 
 ::-webkit-scrollbar-button:single-button:vertical:decrement {
-    border-width: 0 8px 8px 8px;
+    border-width: 0 4px 4px 4px;
     border-color: transparent transparent #ffffff transparent;
 }
 
 ::-webkit-scrollbar-button:single-button:vertical:increment {
-    border-width: 8px 8px 0 8px;
+    border-width: 4px 4px 0 4px;
     border-color: #ffffff transparent transparent transparent;
 }
 
