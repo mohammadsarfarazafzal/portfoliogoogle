@@ -8,7 +8,7 @@ body {
     scroll-behavior: smooth;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     background-color: #424242;
     width: 17px;
 }
@@ -45,7 +45,7 @@ body {
     border-width: 4px 4px 0 4px;
     border-color: #ffffff transparent transparent transparent;
 }
-
+ */
 .navbar {
     height: 144px;
     border-bottom: 1px solid #3c4043;
