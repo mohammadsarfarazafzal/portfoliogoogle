@@ -4,7 +4,12 @@ This repository contains the source code for my portfolio website, inspired by t
 
 ---
 
-## Features 🚀
+## 🚀 Live Demo
+[View Live Demo](https://mohammadsarfarazafzal.github.io/)
+
+---
+
+## Features ✨
 
 - **Google Search Page Inspired Design**:
   - Mimics the look and feel of the Google search results layout.
